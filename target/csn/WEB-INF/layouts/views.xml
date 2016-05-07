@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+<definition name="index" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/index.jsp" />
+</definition>
+<definition name="personList" extends="DefaultTemplate">
+    <put-attribute name="body"
+        value="/WEB-INF/views/personList.jsp" />
+</definition>
+<definition name="register" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/register.jsp" />
+</definition>
+<definition name="confirmRegistration" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/confirmRegistration.jsp" />
+</definition>
+<definition name="home" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/home.jsp" />
+</definition>
+<definition name="post" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/post.jsp" />
+</definition>
+<definition name="user" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/user.jsp" />
+</definition>
+<definition name="allFriends" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/allFriends.jsp" />
+</definition>
+<definition name="allRecommendations" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/allRecommendations.jsp" />
+</definition>
+<definition name="allProjects" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/allProjects.jsp" />
+</definition>
+<definition name="project" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/project.jsp" />
+</definition>
+<definition name="connectionRequests" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/connectionRequests.jsp" />
+</definition>
+<definition name="messageCenter" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/messageCenter.jsp" />
+</definition>
+<definition name="userProfile" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/profile.jsp" />
+</definition>
+<definition name="updateProfile" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/updateProfile.jsp" />
+</definition>
+<definition name="createPost" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/createPost.jsp" />
+</definition>
+<definition name="createEvent" extends="DefaultTemplate">
+    <put-attribute name="menu"
+        value="" />
+    <put-attribute name="body"
+        value="/WEB-INF/views/createEvent.jsp" />
+</definition>
+
+<definition name="maps" extends="MapTemplate">
+</definition>
+
+</tiles-definitions>
